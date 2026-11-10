@@ -1,9 +1,3 @@
 {
-  "duration": 45,
-  "seed": 7,
-  "gravity": 260,
-  "ball": {"restitution": 0.75, "max": 2600},
-  "multiply": {"on": "spinner", "cooldown": 0.5, "max_per_step": 4, "speed": 260, "color": "cycle", "cycle": 3.2},
-  "waves": {"every": 2.0, "count": 8, "until": 4},
-  "burst": {"at_count": 2500, "at_time": 40, "tail": 6}
+  "seed": 3
 }
