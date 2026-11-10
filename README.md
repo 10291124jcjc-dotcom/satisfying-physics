@@ -2,6 +2,12 @@
 
 [中文](#中文) · [English](#english)
 
+https://github.com/user-attachments/assets/08556da7-03e0-4452-b9a4-7d23c0d080c3
+
+用这个 Skill 从零算出来的一条：45 秒，物理、画面、碰撞声全是代码算的，没用任何图片、视频、音频素材。视频文件：[`assets/demo.mp4`](assets/demo.mp4)
+
+---
+
 ## 中文
 
 没有重力，小球在圆圈里飘。圆心一个齿轮挂着两条弯臂，一顺一逆地转；小球碰到齿轮就变成好几个新颜色的球，新颜色一团团从中间长出来，把旧颜色挤到边上。装满后圆圈撑破，球铺满全屏再四散飞走。碰撞声跟着球数从稀到密。
@@ -37,7 +43,7 @@ python scripts/physim.py presets/gear-multiply.json -o 成片.mp4             # 
 
 Zero gravity, balls drifting inside a circle. A gear at the centre carries two curved arms turning in opposite directions; every ball that touches the gear turns into several balls of the current colour, so each new colour grows out from the middle and pushes the old ones aside. When the circle is full it bursts, the balls flood the screen and then scatter. Collision sounds are synthesized per impact and get denser as the balls multiply.
 
-Everything is computed locally from code: physics (numpy + scipy), drawing (OpenCV), audio (numpy), muxed with ffmpeg. No footage, no video model, no assets. A 45-second 1080x1920 short renders in about a minute.
+The demo above was generated from scratch by this skill. Everything is computed locally from code: physics (numpy + scipy), drawing (OpenCV), audio (numpy), muxed with ffmpeg. No footage, no video model, no assets. A 45-second 1080x1920 short renders in about a minute.
 
 Install: give this repo's URL to Claude Code and ask it to install it as a skill. Requires Python 3.10+, `numpy scipy opencv-python`, and `ffmpeg`.
 
